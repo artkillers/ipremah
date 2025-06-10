@@ -1,0 +1,32 @@
+{
+  "penasehat": [
+    "Lurah Bunga Eja Beru",
+    "Imam Kelurahan Bunga Eja Beru"
+  ],
+  "badan_jamaah": [
+    "Drs. Mahmud Madja",
+    "Jalaluddin Kamal DM",
+    "Drs. Abd. Hafid Syam",
+    "M. Yusuf, SH",
+    "Drs. Muh. Bahri",
+    "Zam-Zam",
+    "H. Andi Azis Abu",
+    "Baharuddin",
+    "Agus Haikal, SH",
+    "H. Jamaluddin",
+    "H. Hermanto",
+    "Ir. Mukbil. M. Nur"
+  ],
+  "pengurus_harian": [
+    { "jabatan": "Ketua Umum", "nama": "Andi Rahman Sulo" },
+    { "jabatan": "Wakil Ketua I", "nama": "Syahruddin, SH" },
+    { "jabatan": "Wakil Ketua II", "nama": "Andi Aco Sulo" },
+    { "jabatan": "Wakil Ketua III", "nama": "Syahrul" },
+    { "jabatan": "Sekretaris Umum", "nama": "Abd. Hamid Padu" },
+    { "jabatan": "Wakil Sekretaris I", "nama": "Abd. Azis Anru" },
+    { "jabatan": "Wakil Sekretaris II", "nama": "Abd. Muthalib, S.Sos" },
+    { "jabatan": "Wakil Sekretaris III", "nama": "Syamsuddin" },
+    { "jabatan": "Bendahara", "nama": "Amiruddin" },
+    { "jabatan": "Wakil Bendahara", "nama": "H. Andi Pute Bali" }
+  ]
+}
