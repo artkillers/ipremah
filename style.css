@@ -32,6 +32,7 @@
 /* ===== BODY ===== */
 
 body {
+  font-size: 10px;
   font-family: var(--font-main);
   color: var(--theme-color);
   background-color: var(--bg-dark);
@@ -752,6 +753,7 @@ footer a {
 @media (max-width: 680px) {
   body {
     padding: 1rem;
+    font-size: 10px;
   }
   
   .program-grid,
@@ -768,6 +770,7 @@ footer a {
 
   body {
     padding: 3rem 3rem; 
+    font-size: 10px;
   }
   
   h2 {
