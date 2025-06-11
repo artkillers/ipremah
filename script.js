@@ -68,6 +68,21 @@ document.addEventListener("contextmenu", e => e.preventDefault());
 document.addEventListener("selectstart", e => e.preventDefault());
 document.addEventListener("copy", e => e.preventDefault());
 
+// hadist 
+async function loadHadist() {
+  try {
+    const res = await fetch('hadist.json');
+    const arr = await res.json();
+    const rnd = arr[Math.floor(Math.random() * arr.length)];
+    document.getElementById('hadist-text').textContent = `"${rnd.text}"`;
+    document.getElementById('hadist-source').textContent = rnd.source;
+  } catch (e) {
+    console.error(e);
+    document.getElementById('hadist-text').textContent = "Error Loading Data";
+  }
+}
+loadHadist();
+
 // founder 
 fetch('founder.json')
   .then(res => res.json())
@@ -158,17 +173,3 @@ fetch('members.json')
     totalAnggota.textContent = '( 0 )';
   });
   
-// hadist 
-async function loadHadist() {
-  try {
-    const res = await fetch('hadist.json');
-    const arr = await res.json();
-    const rnd = arr[Math.floor(Math.random() * arr.length)];
-    document.getElementById('hadist-text').textContent = `"${rnd.text}"`;
-    document.getElementById('hadist-source').textContent = rnd.source;
-  } catch (e) {
-    console.error(e);
-    document.getElementById('hadist-text').textContent = "Error Loading Data";
-  }
-}
-loadHadist();
