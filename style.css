@@ -215,7 +215,6 @@ body.dark strong {
   margin: 1.5rem auto;
   border-radius: var(--radius);
   object-fit: cover;
-  transition: transform 0.3s ease, color 0.3s ease;
 }
 body.dark .header-img {
   box-shadow: var(--shadow-out-dark);
