@@ -219,9 +219,6 @@ body.dark strong {
 body.dark .header-img {
   box-shadow: var(--shadow-out-dark);
 }
-.header-img:hover {
-  transform: scale(1.05);
-}
 
 /* Sosial Media */
 .social-buttons {
