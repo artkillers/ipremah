@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Remaja Masjid Nurul Hidayah</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&display=swap" />
+  <link rel="stylesheet" href="source/style.css" />
+</head>
+<body class="light" data-theme-color="color-1" data-font="'Georgia', serif">
+
+  <!-- Floating Settings -->
+  <div class="floating-settings neumorphic">
+    <button id="settingsToggle" title="Pengaturan">
+      <i class="fas fa-gear rotating-gear"></i>
+    </button>
+  </div>
+
+  <div class="settings-panel box-inout hidden" id="settingsPanel">
+    <div class="settings box-inset">
+      <div class="setting-group">
+        <label>Color</label>
+        <div id="colorSelector" class="color-options">
+          <div class="color-swatch color-1" data-color="color-1"></div>
+          <div class="color-swatch color-2" data-color="color-2"></div>
+          <div class="color-swatch color-3" data-color="color-3"></div>
+          <div class="color-swatch color-4" data-color="color-4"></div>
+          <div class="color-swatch color-5" data-color="color-5"></div>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <label for="menuSelector">Menu</label>
+        <select id="menuSelector">
+          <option value="home">Home</option>
+          <option value="about">About</option>
+          <option value="members">Members</option>
+          <option value="programs">Programs</option>
+          <option value="activities">Activities</option>
+          <option value="documentation">Documentation</option>
+          <option value="contact">Contact</option>
+        </select>
+      </div>
+
+      <div class="setting-group">
+        <label>Font</label>
+        <select id="fontSelector" class="font-toggle">
+          <option value="'Georgia', serif">Georgia</option>
+          <option value="'Roboto', sans-serif">Roboto</option>
+          <option value="'Montserrat', sans-serif">Montserrat</option>
+          <option value="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Segoe UI</option>
+          <option value="'Courier New', Courier, monospace">Courier New</option>
+          <option value="'Comic Sans MS', cursive, sans-serif">Comic Sans MS</option>
+          <option value="'Trebuchet MS', Helvetica, sans-serif">Trebuchet MS</option>
+        </select>
+      </div>
+
+      <div class="setting-group">
+        <label>Theme</label>
+        <select id="themeSelector" class="theme-toggle">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <!-- Floating Settings Ends -->
+
+  <!-- Home Section -->
+  <section id="home" class="section-home box-inset">
+    <h2><i class="fas fa-mosque section-icon"></i> IPREMAH </h2>
+    <img src="picture/image.jpg" alt="Foto Masjid Nurul Hidayah" class="header-img" />
+
+    <h1>Ikatan Pemuda Remaja Masjid Nurul Hidayah</h1>
+
+    <p class="slogan">"Diksi yang diramu, seperti mantra yang dirapal; pada naskah langit yang terukir dalam palung waktu — yang menciptakan nubuwah — ditancapkanlah ikrar lintas kabilah, melahirkan peradaban dari manshurah sunyi; yang meredam bara, dan menghidupkan perbedaan. Maka jagalah, rawatlah, dan lindungilah segala yang telah diwariskan — dan yang kelak akan diwariskan — dari sebuah peradaban untuk generasi ke generasi."</p>
+
+    <div class="social-buttons">
+      <a href="https://instagram.com/ipremah" target="_blank" class="social-icon neumorphic" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://t.me/ipremah" target="_blank" class="social-icon neumorphic" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+      <a href="https://chat.whatsapp.com/Hw2sQajNc976I0SS34YO3W" target="_blank" class="social-icon neumorphic" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="mailto:ipremahnurulhidayah@email.com" class="social-icon neumorphic" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <div id="random-hadist" class="random-hadist box-inout">
+      <p id="hadist-text">• • •</p>
+      <p id="hadist-source">• • •</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-about box-inset">
+    <h2><i class="fas fa-info-circle section-icon"></i> Tentang Kami </h2>
+    <p>Remaja Masjid Nurul Hidayah didirikan pada tahun 1994 sebagai wadah pembinaan dan pengembangan generasi muda Islam yang aktif, kreatif, dan berakhlak mulia. Kami berupaya menjadi motor penggerak kegiatan positif di lingkungan masjid dan masyarakat sekitar.</p>
+
+    <div class="about-subsection box-inout">
+      <h2><i class="fas fa-eye section-icon"></i> Visi </h2>
+      <p>Mewujudkan remaja Islam yang berilmu, berakhlak, dan berperan aktif dalam membangun masyarakat madani yang berlandaskan nilai-nilai Islami dan piagam Madinah.</p>
+    </div>
+
+    <div class="about-subsection box-inout">
+      <h2><i class="fas fa-bullseye section-icon"></i> Misi </h2>
+      <ul>
+        <li>Meningkatkan pemahaman dan pengamalan ajaran Islam di kalangan remaja.</li>
+        <li>Mengembangkan potensi remaja dalam bidang keilmuan, sosial, dan dakwah.</li>
+        <li>Mendorong keterlibatan aktif dalam kegiatan masjid dan kemasyarakatan.</li>
+        <li>Menanamkan semangat ukhuwah Islamiyah dan kepedulian sosial.</li>
+      </ul>
+    </div>
+
+    <div class="about-subsection box-inout">
+      <h2><i class="fas fa-user-shield section-icon"></i> Pengurus Utama Masjid</h2>
+      <ul id="utama-list">
+        <li><strong>Lurah Bunga Eja Beru</strong> – Penasehat</li>
+        <li><strong>Drs. Mahmud Madja</strong> – Badan Jama'ah</li>
+        <li><strong>Andi Rahman Sulo</strong> – Ketua</li>
+        <li><strong>Abdul Hamid</strong> – Sekretaris</li>
+        <li><strong>Amiruddin</strong> – Bendahara</li>
+      </ul>
+
+      <button id="showMorePengurus" class="pop-btn neumorphic">
+        <i class="fas fa-address-card"></i> Lihat Susunan Pengurus
+      </button>
+
+      <div id="popupPengurus" class="popup-overlay hidden">
+        <div class="popup-content">
+          <button id="popupClose" class="popup-close neumorphic">&times;</button>
+          <h2><i class="fas fa-user-shield"></i> Penasehat </h2>
+          <ul id="list-penasehat"></ul>
+          <h2><i class="fas fa-users"></i> Badan Jama'ah </h2>
+          <ul id="list-badan"></ul>
+          <h2><i class="fas fa-user-cog"></i> Pengurus Harian </h2>
+          <ul id="list-harian"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Members Section -->
+  <section id="members" class="section-members box-inset">
+    <h2><i class="fas fa-users section-icon"></i> Anggota 
+      <div id="totalAnggota">( 0 )</div>
+    </h2>
+    <p>Anggota kami terdiri dari remaja usia 15–30 tahun yang aktif mengikuti kegiatan keagamaan dan sosial.</p>
+    <div id="member-container" class="member-grid"></div>
+    <div class="pagination-controls">
+      <button class="neumorphic" id="prev-btn" disabled><i class="fas fa-backward"></i></button>
+      <button class="neumorphic" id="next-btn"><i class="fas fa-forward"></i></button>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section id="programs" class="section-programs box-inset">
+    <h2><i class="fas fa-calendar-alt section-icon"></i> Program Kerja </h2>
+    <p>Kami menyelenggarakan berbagai program seperti kajian rutin, bakti sosial, pelatihan kepemimpinan, tahfidz Al-Qur’an, dan pengembangan diri.</p>
+    <div class="program-grid">  
+      <div class="program-card box-inout">  
+        <i class="fas fa-book-open program-icon"></i>  
+        <h3>Kajian Rutin</h3>  
+        <p>Pembahasan ilmu agama setiap pekan bersama ustadz/ustadzah lokal maupun tamu.</p>  
+      </div>  
+      <div class="program-card box-inout">  
+        <i class="fas fa-hands-helping program-icon"></i>  
+        <h3>Bakti Sosial</h3>  
+        <p>Kegiatan sosial seperti santunan yatim, bantuan bencana, dan donor darah.</p>  
+      </div>  
+      <div class="program-card box-inout">  
+        <i class="fas fa-chalkboard-teacher program-icon"></i>  
+        <h3>Pelatihan Kepemimpinan</h3>  
+        <p>Membentuk karakter pemimpin Islami melalui training, diskusi, dan simulasi.</p>  
+      </div>  
+      <div class="program-card box-inout">  
+        <i class="fas fa-quran program-icon"></i>  
+        <h3>Tahfidz Al-Qur’an</h3>  
+        <p>Program hafalan dan muroja’ah Al-Qur’an dengan bimbingan pengajar berpengalaman.</p>  
+      </div>  
+      <div class="program-card box-inout">  
+        <i class="fas fa-user-graduate program-icon"></i>  
+        <h3>Pengembangan Diri</h3>  
+        <p>Kegiatan untuk melatih keterampilan, mental, dan kreativitas remaja Islami.</p>  
+      </div>  
+      <div class="program-card box-inout">  
+        <i class="fas fa-hand-holding-heart program-icon"></i>  
+        <h3>Kerja Bakti</h3>  
+        <p>Kegiatan mingguan dan bulanan yang diselenggarakan oleh anggota aktif untuk menjaga kebersihan lingkungan.</p>  
+      </div>  
+    </div>  
+  </section>
+ 
+  <!-- Activities Section -->
+  <section id="activities" class="section-activities box-inset">
+    <h2><i class="fas fa-calendar-check section-icon"></i> Kegiatan </h2>
+    <p>Kegiatan rutin dan insidental untuk meningkatkan keimanan dan kepedulian sosial remaja.</p>
+    <ul class="activities-list">
+      <li>Pengajian Ahad pagi setiap minggu</li>
+      <li>Pelatihan kepemimpinan remaja bulanan</li>
+      <li>Bakti sosial dan santunan anak yatim</li>
+      <li>Kampanye kebersihan dan penghijauan</li>
+      <li>Peringatan hari besar Islam dan kegiatan Ramadhan</li>
+    </ul>
+  </section>
+
+  <!-- Documentation Section -->
+  <section id="documentation" class="section-documentation box-inset">
+    <h2><i class="fas fa-camera-retro section-icon"></i> Dokumentasi </h2>
+    <p>Foto dan video kegiatan remaja masjid sebagai dokumentasi dan motivasi.</p>
+    <div class="documentation-grid">
+      <img src="picture/1.jpg" alt="Dokumentasi 1" />
+      <img src="picture/2.jpg" alt="Dokumentasi 2" />
+      <img src="picture/3.jpg" alt="Dokumentasi 3" />
+      <img src="picture/4.jpg" alt="Dokumentasi 4" />
+      <img src="picture/5.jpg" alt="Dokumentasi 5" />
+      <img src="picture/6.jpg" alt="Dokumentasi 6" />
+      <img src="picture/7.jpg" alt="Dokumentasi 7" />
+      <img src="picture/8.jpg" alt="Dokumentasi 8" />
+      <img src="picture/9.jpg" alt="Dokumentasi 9" />
+      <img src="picture/10.jpg" alt="Dokumentasi 10" />
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-contact box-inset">
+    <h2><i class="fas fa-envelope section-icon"></i> Kontak </h2>
+    <p>Hubungi melalui nomor, email, atau datang langsung ke alamat.</p>
+    <div class="contact-info">
+      <p><i class="fas fa-phone"></i> +62 857-8202-7362</p>
+      <p><i class="fas fa-envelope"></i> ipremahnurulhidayah@gmail.com</p>
+      <p><i class="fas fa-map-marker-alt"></i> Jl. Poros Kandea III, No.7, BEB, Tallo. (Masjid Nurul Hidayah)</p>
+    </div>
+
+    <form id="contactForm" class="contact-form">
+      <label for="name">Nama</label>
+      <input type="text" id="name" name="name" placeholder="Nama Anda" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Email Anda" required />
+
+      <label for="subject">Subjek</label>
+      <input type="text" id="subject" name="subject" placeholder="Subjek Anda" required />
+
+      <label for="message">Pesan</label>
+      <textarea id="message" name="message" rows="4" placeholder="Tulis pesan Anda" required></textarea>
+
+      <button class="neumorphic" type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="neumorphic">
+    <a href="https://artkillers.github.io/ipremah" target="_blank">
+      © 2025 Ipremah • All Rights Reserved.
+    </a>
+  </footer>
+
+  <!-- Background Music -->
+  <audio id="audio" src="music/audio.mp3" preload="auto" loop></audio>
+
+  <!-- Scripts -->
+  <script src="source/script.js"></script>
+  <script>
+    const audio = document.getElementById("audio");
+
+    function playAudioOnce() {
+      audio.play().catch(err => {
+        console.warn("Autoplay gagal:", err);
+      });
+      window.removeEventListener("click", playAudioOnce);
+      window.removeEventListener("scroll", playAudioOnce);
+    }
+
+    window.addEventListener("click", playAudioOnce);
+    window.addEventListener("scroll", playAudioOnce);
+
+    const showBtn = document.getElementById('showMorePengurus');
+    const popup = document.getElementById('popupPengurus');
+    const closeBtn = document.getElementById('popupClose');
+
+    function openPopup() {
+      popup.classList.remove('hidden');
+      document.body.classList.add('popup-open');
+    }
+
+    function closePopup() {
+      popup.classList.add('hidden');
+      document.body.classList.remove('popup-open');
+    }
+
+    showBtn.addEventListener('click', openPopup);
+    closeBtn.addEventListener('click', closePopup);
+
+    popup.addEventListener('click', (e) => {
+      if (e.target === popup) closePopup();
+    });
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closePopup();
+    });
+
+    window.addEventListener('popstate', closePopup);
+  </script>
+</body>
+</html>
