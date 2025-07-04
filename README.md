@@ -1,10 +1,6 @@
----
-
 ## Ipremah Website Membership
 
 This is a static website that displays information about an organization’s membership, including data about founders, members, selected hadiths, images, and background music. It is built using HTML, CSS, and JavaScript without a backend.
-
----
 
 ## Features
 
@@ -14,16 +10,12 @@ This is a static website that displays information about an organization’s mem
 - Automatically plays **background music**  
 - Shows a **gallery of images**
 
----
-
 ## Technologies Used
 
 - HTML5  
 - CSS3  
 - Vanilla JavaScript  
 - JSON for static data
-
----
 
 ## File Overview
 
@@ -42,21 +34,15 @@ Defines the visual styling of the website (colors, fonts, layout, etc.).
 
 Fetches and displays data from the JSON files (`members.json`, `founder.json`, `hadist.json`) using JavaScript.
 
----
-
 ## JSON Data
 
 - `founder.json` – Contains the list of organization founders  
 - `members.json` – Contains the list of members  
 - `hadist.json` – Contains selected hadiths to be displayed on the page
 
----
-
 ## MIT License
 
 This project is open for learning and personal development use. [ MIT License ](https://opensource.org/licenses/MIT)
-
----
 
 <!-- Light mode -->
 <div align="center">
@@ -77,5 +63,3 @@ This project is open for learning and personal development use. [ MIT License ](
     <img width="48%" src="https://github-readme-stats-steel-omega.vercel.app/api/top-langs/?username=artkillers&layout=compact&icon_color=2d77dc&title_color=2d77dc&text_color=ffffff&bg_color=0d1117&hide_border=true" />
   </a>
 </div>
-
----
